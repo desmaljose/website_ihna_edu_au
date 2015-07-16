@@ -1,0 +1,440 @@
+
+/* 
+   ------------------------------------------------------
+					Responsive Styles
+   ------------------------------------------------------
+*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+#intro {padding-top: 20px; padding-bottom: 10px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {	
+
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro_description h2 {font-size: 45px; line-height: 45px;}
+	#intro_description h3 { font-size: 28px;}
+	#intro_description p { font-size: 17px; line-height: 23px;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+
+	.form_register form { margin: 0 15px;}
+	
+	/*------------------------------------------*/
+	/*	 Feature Box Icon
+	/*------------------------------------------*/
+
+	.feature-box-icon i {font-size: 40px;}
+	
+	/*------------------------------------------*/
+	/*	 Feature Box Content
+	/*------------------------------------------*/
+
+	.feature-box-content h5 {font-size: 15px;}
+	
+	/*------------------------------------------*/
+	/*	Our Philosophy
+	/*------------------------------------------*/
+	
+	#our-philosophy .img-responsive { margin-top: 40px;}
+	
+	/*------------------------------------------*/
+	/*	  Pricing Table Body
+	/*------------------------------------------*/
+
+	.pricing-table ul.features { font-size: 15px; padding: 5px 15px; }
+	
+	/*------------------------------------------*/
+	/*	  FAQs Question
+	/*------------------------------------------*/
+
+	.question p {font-size: 15px;line-height: 23px;}
+	
+	/*------------------------------------------*/
+	/*	 Testimonial Message Text
+	/*------------------------------------------*/
+
+	.testimonials p {font-size: 21px; line-height: 34px;}
+
+
+}
+
+
+@media only screen and (max-width: 991px){
+
+	.titlebar p {font-size: 16px;line-height: 22px;padding: 0;} 
+	
+	#features, #pricing {padding-top: 80px;padding-bottom: 40px;}
+	#about, #portfolio, #faq {padding-top: 80px;padding-bottom: 60px;}
+	#team {padding-top: 80px;padding-bottom: 30px;}
+	#clients {padding-top: 80px;padding-bottom: 80px;}
+	#video {padding-top: 80px;}
+
+	/*------------------------------------------*/
+	/*	 Navigation Menu    
+	/*------------------------------------------*/
+	
+	.navbar-nav > li > a {padding: 0 10px;}
+
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro { padding-bottom: 10px;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro_description h2 { margin-top: 0px; text-align: center;}
+	#intro_description h3 { font-size: 30px; text-align: left; margin-bottom: 20px;}
+	#intro_description p { font-size: 17px; line-height: 23px;}
+	p.intro_paragraph, .intro_list {padding: 0 12% 0 15%;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+
+	#intro_form { width: 80%; margin-left: 10%;}
+		
+	/*------------------------------------------*/
+	/*	Our Philosophy
+	/*------------------------------------------*/
+	
+	#our-philosophy .img-responsive { margin-top: 60px; padding: 0 80px;}
+	#accordion-holder {margin-bottom: 60px;}
+	
+	/*------------------------------------------*/
+	/*	 Call-To-Action Slogan
+	/*------------------------------------------*/ 
+	
+	#cta_slogan {text-align: center; margin-bottom: 10px;}
+	
+	/*------------------------------------------*/
+	/*	 Call-To-Action Button
+	/*------------------------------------------*/ 
+	
+	#cta_button {text-align: center!important;}
+	
+	/*------------------------------------------*/
+	/*	  Video Banner
+	/*------------------------------------------*/ 
+	
+	#video_title h2 {font-size: 26px;}
+	#video_title p {padding: 0 3%;}
+	
+	/*------------------------------------------*/
+	/*	  Testimonials Rotator
+	/*------------------------------------------*/ 
+	
+	.testimonials {margin: 50px 0% 50px;}
+	
+	/*------------------------------------------*/
+	/*	  Newsletter Form Input
+	/*------------------------------------------*/
+	
+	#newsletter form input[type="email"] {width: 55%;}
+	#newsletter form input[type="submit"] {width: 25%;}	
+	
+	/*------------------------------------------*/
+	/*	 Footer 
+	/*------------------------------------------*/ 
+	
+	#footer {padding-top: 40px;padding-bottom: 30px;}
+	#footer_copy {text-align: center; margin-bottom: -15px;}
+	#footer_icons {text-align: center!important;}
+	
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand {padding: 18px 45px;} 
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+	
+	.navbar-nav { margin: 0 -15px; border-top: 1px solid #ddd; background-color: #f4f4f4;}	
+	.navbar-nav > li { text-align: center;}
+	.navbar-nav > li > a { line-height: 40px; text-align: center;}
+	.navbar-toggle {margin: 13px 45px 13px 0;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro_description h2 {font-size: 46px; line-height: 46px;}
+	#intro_description h3 { font-size: 28px; }	
+	#intro_description p { font-size: 16px; line-height: 22px;}
+	p.intro_paragraph, .intro_list {padding: 0 15% 0 17%;}
+
+	#features, #team, #portfolio, #pricing, #video, #testimonials-rotator { padding-left: 15px; padding-right: 15px; }
+	#about, #faq { padding-left: 25px; padding-right: 25px; }
+
+	/*------------------------------------------*/
+	/*	 Promo Banner 
+	/*------------------------------------------*/
+	
+	#promo-banner h1 {font-size: 34px;line-height: 34px;}
+	#promo-banner h3 {font-size: 20px;}
+	
+	/*------------------------------------------*/
+	/*	 Clients Carousel Navigation
+	/*------------------------------------------*/
+
+	.customNavigation {right: 30px;}
+
+
+}
+
+
+@media (max-width: 480px) {
+
+	#intro, #features, #about, #team, #portfolio, #pricing, #video, #faq { padding-left: 10px; padding-right: 10px; }
+	
+	
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand {padding: 18px 30px;} 
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+	
+	.navbar-toggle {margin: 13px 30px 13px 0;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro {padding-top: 80px; padding-bottom: 80px;}
+
+	#intro_description h2 {font-size: 38px; line-height: 38px;}
+	#intro_description h3 { font-size: 22px; }	
+	#intro_description p { font-size: 16px; line-height: 22px;}
+	p.intro_paragraph {text-align: center; padding: 0;}
+	.intro_list {display: none;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+	
+	#intro_form { width: 100%; margin-left: 0%;}
+	.form_register form { margin: 0 15px;}
+	
+	/*------------------------------------------*/
+	/*	 Feature Box 
+	/*------------------------------------------*/
+
+	.feature-box { width: 100%; float: none;}
+	
+	/*------------------------------------------*/
+	/*	 Promo Banner 
+	/*------------------------------------------*/
+	
+	#promo-banner h1 {font-size: 30px; line-height: 30px;}
+	#promo-banner h3 {font-size: 18px;}
+	
+	/*------------------------------------------*/
+	/*	Our Philosophy
+	/*------------------------------------------*/
+	
+	#our-philosophy .img-responsive { padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Team
+	/*------------------------------------------*/ 
+	
+	#team-member-holder { padding: 0 10%;}
+	#team-member-holder .col-xs-6 { width: 100%; float: none !important; }	
+	
+	/*------------------------------------------*/
+	/*	 Portfolio
+	/*------------------------------------------*/ 
+	
+	.portfolio-item { width: 100%; float: none !important; }	
+	
+	/*------------------------------------------*/
+	/*	 Call-To-Action
+	/*------------------------------------------*/  
+	
+	#cta_slogan h2 {font-size: 25px; line-height: 32px; padding: 0;}
+	#cta_slogan p {font-size: 16px; line-height: 24px; padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Peicing
+	/*------------------------------------------*/
+	
+	#pricing-table-holder { padding: 0 10%;}
+	#pricing-table-holder .col-xs-6 { width: 100%; float: none !important; }
+
+	/*------------------------------------------*/
+	/*	 Testimonial Message Text
+	/*------------------------------------------*/
+
+	.testimonials p {font-size: 18px; line-height: 28px; padding: 0%;}	
+	
+	/*------------------------------------------*/
+	/*	 Our Clients
+	/*------------------------------------------*/
+	.customNavigation {display: none;}
+	
+	/*------------------------------------------*/
+	/*	  Newsletter Form Input
+	/*------------------------------------------*/
+	
+	#newsletter form input[type="email"] {width: 60%; font-size: 16px;}
+	#newsletter form input[type="submit"] {width: 30%; font-size: 16px; margin-left: 5px;}	
+	.message {font-size: 16px;}
+
+	
+}
+
+
+@media (max-width: 320px) {
+
+	#intro, #features, #about, #team, #portfolio, #pricing, #video, #faq { padding-left: 0; padding-right: 0; }
+	
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand {padding: 18px 15px;}  
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu    
+	/*------------------------------------------*/
+
+	.navbar-toggle {margin: 13px 15px 13px 0;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+	
+	.form_register form { margin: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Team
+	/*------------------------------------------*/ 
+	
+	#team-member-holder { padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Peicing
+	/*------------------------------------------*/
+	
+	#pricing-table-holder { padding: 0;}
+	
+		/*------------------------------------------*/
+	/*	  Newsletter Form Input
+	/*------------------------------------------*/
+	
+	#newsletter form input[type="email"] {width: 55%; font-size: 14px;}
+	#newsletter form input[type="submit"] {width: 40%; font-size: 14px; margin-left: 2px;}	
+	.message {font-size: 16px;}
+
+}
+
+@media screen and (min-width:250px) and (max-width:549px)
+{
+	.toll-mob{display:none;}
+	.navbar-brand{ padding: 3px 45px;}
+	.tollwrap{ width:300px;}
+	.support{ float:left; margin-left:50px ; width:250px;}
+	.toll{ float:left; margin-left:50px ; width:250px;}
+	.mail{ float:left; margin-left:50px ; width:250px;}
+	#intro { background-position: -379px top !important;padding-right: 55px;}	
+	.main-hd{color:#fff; font-size:22px; padding-right: 100px;}
+	.sub-hd{ color:#ff0; font-size:17px; font-weight:400; font-style:italic;}
+	.sub-hd-1{ font-size:23px; font-weight:600;}
+	.sub-txt{ color:#fff; font-size:16px; padding-right: 100px;}
+	.tags{font-size:16px}
+	#content_wrapper {  margin-top: 30px;}
+
+} 
+@media screen and (min-width:491px) and (max-width:744px)
+{
+	.banner_tag{ padding-right:119px ;}
+
+	
+}
+@media screen and (min-width:745px) and (max-width:789px)
+
+{
+	.banner_tag{ padding-right:280px;}
+}
+
+
+@media screen and (min-width:550px) and (max-width:789px)
+{
+	.toll-mob{display:none;}
+	.navbar-brand {  padding: 3px 45px;}
+	.tollwrap{ margin:0 auto !important ; float:none !important ; width:571px;}
+	#intro{background-position: -300px top;}
+	.support{ float:left; margin-left:0px ; width:auto;}
+	.toll{ float:left; margin-left:0px ; width:auto;}
+	.mail{ float:left; margin-left:0px; width:auto;}
+	.main-hd{color:#fff; font-size:28px; padding-right: 10px; }
+	.sub-hd{ color:#ff0; font-size:22px; padding-right: 10px; font-weight:400; font-style:italic;}
+	.sub-hd-1{font-size:28px;font-weight:600; }
+	.sub-txt{ color:#fff; font-size:22px; padding-right: 10px; line-height:47px }
+	.tags{font-size:20px}
+}
+
+@media screen and (min-width:736px) and (max-width:960px)
+{
+	#intro{background-position: -110px top;}
+	
+}
+
+@media screen and (min-width:790px) and (max-width:980px)
+{
+	.foot-mob{display:none;}
+	.banner_tag{ width:65%; margin-left:auto; margin-right:auto; float:none}
+	.main-hd{color:#fff; font-size:34px; padding-right: 10px;}
+	.sub-hd{ color:#ff0; font-size:22px; padding-right: 10px;font-weight:400; font-style:italic;}
+	.sub-hd-1{font-size:28px; font-weight:600;}
+	.sub-txt{ color:#fff; font-size:22px; padding-right: 10px; line-height:47px }
+	li.tags{font-size:20px}
+}
+
+@media screen and (min-width:981px) and (max-width:1024px)
+{
+	.foot-mob{display:none ;}
+	.tollwrap{float:right !important}
+	#intro {padding-top: 43px;}
+	.banner_tag{ padding-right:90px;}
+	.main-hd{color:#fff; font-size:34px; padding-right: 10px;}	
+	.sub-hd{ color:#ff0; font-size:22px; padding-right: 10px; font-weight:400; font-style:italic;}
+	.sub-hd-1{  font-size:28px;font-weight:600;}
+	.sub-txt{ color:#fff; font-size:22px; padding-right: 10px; line-height:47px }
+	li.tags{font-size:20px}
+	#intro{background-position: -180px top;}
+}
+
+@media screen and (min-width:1025px) and (max-width:3000px)
+{	.foot-mob{display:none;}
+	.toll-mob{display:inline;}
+	.tollwrap{float:right !important}
+	.banner_tag{ padding-right:130px;}
+	.main-hd{color:#fff; font-size:34px; padding-right: 10px;}
+	.sub-hd{ color:#ff0; font-size:22px; padding-right: 10px; font-weight:400; font-style:italic;}
+	.sub-hd-1{font-size:28px;font-weight:600;}
+	.sub-txt{ color:#fff; font-size:22px; padding-right: 10px; line-height:47px }
+	li.tags{font-size:20px}
+	#intro{background-position: left top;}
+	
+}
