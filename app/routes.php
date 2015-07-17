@@ -119,7 +119,9 @@ Router::connect('/courses/pay_online', array('controller' => 'payments', 'action
   Router::connect('/courses/viewdetails/English-Course/IELTS-Coaching/*', array('controller' => 'courses', 'action' => 'details', 28));  
   
     //Course in Micro-Suction and Aural Hygiene
-  Router::connect('/courses/viewdetails/Short-Courses/Course-in-Micro-suction-and-Aural-Hygiene/*', array('controller' => 'courses', 'action' => 'details', 36));   
+  Router::connect('/courses/viewdetails/Short-Courses/Course-in-Micro-suction-and-Aural-Hygiene/*', array('controller' => 'courses', 'action' => 'details', 36));  
+  
+   Router::connect('/courses/Certificate-IV-in-Home-and-Community-Care/*', array('controller' => 'courses', 'action' => 'details', array(19,1)));   Router::connect('/courses/Certificate-IV-in-Aged-Care/*', array('controller' => 'courses', 'action' => 'details', array(18,1))); 
   
  ///
   
