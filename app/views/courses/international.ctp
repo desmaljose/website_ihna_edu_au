@@ -40,7 +40,7 @@
                       <div class="cover pull-left">
                         <a title="Initial Registration for Overseas Registered Nurses(IRON)" href="<?php echo WEB_URL; ?>courses/details/<?php echo $courses[$tot-1]['c']['course_id']; ?>/1">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">                                             
-                              <img class="img-responsive"  border="0" alt="" src="http://10.10.30.60/smsihna/uploads/course_img_thumb/<?php echo $courses[$tot-1]['co']['thumb']; ?>">                   
+                              <img class="img-responsive"  border="0" alt="" src="https://academic.ihna.edu.au/uploads/course_img_thumb/<?php echo $courses[$tot-1]['co']['thumb']; ?>">                   
                     </div></a>
                             
                           
@@ -181,7 +181,7 @@ src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
                 <div class="clear"></div>
                 <ul class="sidelist">
                     <a href="<?php echo WEB_URL; ?>esos_framework"><li class="wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">ESOS</li></a>
-                    <a href="<?php echo WEB_URL; ?>course_fee"><li class="wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">IHNA Fees Schedule</li></a>
+                    <a href="<?php echo WEB_URL; ?>fees_and_charges_cricos" title="IHNA Fees Schedule for International Students"><li class="wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">IHNA Fees Schedule</li></a>
                     <a target="_blank" href="<?php echo WEB_URL; ?>uploads/studentprospectus/IHNA_student_prospectus.pdf"> <li class="wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">Students Prospectus</li></a>
                     <a href="<?php echo WEB_URL; ?>introduction_to_australia"><li class="wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">Pre Arrival Informations</li></a>
                 </ul>
