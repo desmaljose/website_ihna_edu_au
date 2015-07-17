@@ -1,1 +1,0 @@
-<center><input type="button" onclick="window.location='<?php echo WEB_URL.'application_form/course_id:'.$id; ?>'" name="apply_online" value="Apply Online" /></center>
