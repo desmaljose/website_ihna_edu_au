@@ -4163,12 +4163,26 @@ option{
 .international-fees td label{
   font-size:14px;
 }
-
-
-
-
-
-
+.ihm-logo{
+	text-align:center;
+}
+.ihm-logo p{
+	font-size:14px;
+	padding-top: 10px;
+	line-height:18px;
+}
+.technology_partner{
+	background-color:#CDCDCD;
+}
+.technology_partner h4{
+	background:url(../ihna-images/arrow-right.png) no-repeat right 23px;
+	line-height:60px;
+	color: #1E75BE;
+}
+.technology_partner img{
+	float:left;
+	margin: 17px 55px 0;
+}
 
 
 
@@ -4248,6 +4262,15 @@ option{
 .sub-faq-contant{
 	margin: 15px 0 15px 0px;
 }
+.technology_partner h4 {
+    background:none !important;
+    line-height: 20px;
+	padding-top:10px;
+}
+.technology_partner img {
+    float: left;
+    margin: 17px 17px 10px;
+}
 }
 
 @media only screen and (min-width:320px) and (max-width: 480px) {
@@ -4297,6 +4320,18 @@ option{
 }
 .listing-right{
 	padding-top:0px;
+}
+.technology_partner h4 {
+    background:none !important;
+    line-height: 20px;
+	padding-top:10px;
+}
+.technology_partner {
+    text-align: center;
+}
+.technology_partner img {
+    float: none !important;
+    margin: 5px;
 }
 
 }
