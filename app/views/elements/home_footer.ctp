@@ -80,6 +80,8 @@
             <div class="technology_partner">
                 <div class="container">
                     <div class="row">
+                    <h4 class="col-lg-2 col-md-2 col-sm-12">Our Technology Partners</h4>
+                    	<div class="col-lg-10 col-md-10 col-sm-12">
                         <a href=""><img src="<?php echo WEB_URL; ?>ihna-images/knowledge-hub.png" style="margin-top:8px;" alt="Knowledge Hub"/></a>
                         <a href=""><img src="<?php echo WEB_URL; ?>ihna-images/amazon.png" alt="Amazon"/></a>
                          <a href=""><img src="<?php echo WEB_URL; ?>ihna-images/spring-share.png" alt="Spring-share"/></a>
