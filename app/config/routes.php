@@ -28,6 +28,7 @@
  */
 
     Router::connect('/', array('controller' => 'cms', 'action' => 'home', 'home'));
+     Router::connect('/careers', array('controller' => 'jobDetails', 'action' => 'available'));
     Router::connect('/image_gallery', array('controller' => 'cms', 'action' => 'image_gallery'));
     Router::connect('/video_gallery', array('controller' => 'cms', 'action' => 'video_gallery'));
 	
@@ -36,6 +37,7 @@
 	
     Router::connect('/students', array('controller' => 'cms', 'action' => 'students'));    
     Router::connect('/contact', array('controller' => 'cms', 'action' => 'contact'));
+	Router::connect('/contacts', array('controller' => 'cms', 'action' => 'contact'));
     Router::connect('/enquiries', array('controller' => 'cms', 'action' => 'enquiry'));
     Router::connect('/application_form/*', array('controller' => 'pages', 'action' => 'application_form'));
     Router::connect('/helpdesk/support_admin', array('controller' => 'pages', 'action' => 'support_admin'));   
@@ -51,6 +53,8 @@
 	///
 	 Router::connect('/clinical_placement_information', array('controller' => 'pages', 'action' => 'clinical_placement_information'));
 	 Router::connect('/vet_fee_help', array('controller' => 'pages', 'action' => 'vet_fee_help'));
+	 Router::connect('/vetfeehelp', array('controller' => 'pages', 'action' => 'vet_fee_help'));
+	  
 	 Router::connect('/student_complaints', array('controller' => 'pages', 'action' => 'student_complaints'));	 
 	 Router::connect('/student_testimonials', array('controller' => 'pages', 'action' => 'student_testimonials'));
 	 Router::connect('/simulation', array('controller' => 'cms', 'action' => 'simulation'));

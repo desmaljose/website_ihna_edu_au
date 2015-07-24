@@ -1,0 +1,1 @@
+The online payment cannot be processed. Please check whether you have entered all the details properly and also make sure that JavaScript is enabled in your browser.

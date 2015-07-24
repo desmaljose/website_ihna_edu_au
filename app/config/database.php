@@ -73,16 +73,29 @@
  */
 class DATABASE_CONFIG {
 
+/*
 	// Local
         var $default = array(
 		'driver' => 'mysql',
 		'persistent' => false,
-		'host' => '10.10.30.60',
-		'login' => 'myuser',
-		'password' => 'mypass',
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => '',
 		'database' => 'ihna_newdb',
 		'prefix' => '',
 	);
+*/	
+ // Local
+        var $default = array(
+    'driver' => 'mysql',
+    'persistent' => false,
+    'host' => '10.10.30.60',
+    'login' => 'myuser',
+    'password' => 'mypass',
+    'database' => 'ihna_newdb',
+    'prefix' => '',
+  );
+	
         
 	// Server
         /* var $default = array(
@@ -99,9 +112,9 @@ class DATABASE_CONFIG {
         var $smsihna = array(
 		'driver' => 'mysqli',
 		'persistent' => false,
-		'host' => '10.10.30.60',
-		'login' => 'myuser',
-		'password' => 'mypass',
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => '',
 		'database' => 'sms_ihnadb',
 		'prefix' => '',
 	); 
