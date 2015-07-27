@@ -59,8 +59,8 @@ class AppController extends Controller {
     function load_menu()
     {
         $this->loadModel("Cm");
-        $det = $this->Cm->find('all',array('conditions'=>array('Cm.enable'=>'1','Cm.parent_id'=>0,'Cm.show_in_parent_menu'=>1),'order'=>array('Cm.sort ASC')));
-       // pr($det);
+        $det = $this->Cm->find('all',array('conditions'=>array('Cm.enable'=>'1','Cm.parent_id'=>0,'Cm.show_in_parent_menu'=>1),'order'=>array('Cm.sort ASC')));		
+        //pr($det);
         $this->set('det',$det);
         $menu_str = '';
         if($det)
@@ -79,9 +79,15 @@ class AppController extends Controller {
 //exit;
 
                 if(!$check_child_exists)
-                {
-
-                 $menu_str.='<li class="no-submenu"><a href="'.WEB_URL.$val['Cm']['seo_url'].'">'.$val['Cm']['page_title'].'</a></li>';
+                { 
+                   if($val['Cm']['is_external_url'] == '1')
+				   {
+					    $menu_str.='<li class="no-submenu"><a href="'.$val['Cm']['seo_url'].'" target="'.$val['Cm']['page_target'].'">'.$val['Cm']['page_title'].'</a></li>';
+				   }
+				   else
+				   {				   
+                        $menu_str.='<li class="no-submenu"><a href="'.WEB_URL.$val['Cm']['seo_url'].'" >'.$val['Cm']['page_title'].'</a></li>';
+				   }
               
                 }
                 else
@@ -90,7 +96,14 @@ class AppController extends Controller {
                     <ul class="sub-menu">';
                     foreach($check_child_exists as $ckey =>$cval)
                         {
-                            $menu_str.='<li><a href="'.WEB_URL.$cval['Cm']['seo_url'].'">'.$cval['Cm']['page_title'].'</a></li>';
+						   if($cval['Cm']['is_external_url']=='1')						  
+						   {
+							    $menu_str.='<li><a href="'.$cval['Cm']['seo_url'].'" target="'.$cval['Cm']['page_target'].'">'.$cval['Cm']['page_title'].'</a></li>';
+						   }
+						   else{                            
+							
+							   $menu_str.='<li><a href="'.WEB_URL.$cval['Cm']['seo_url'].'">'.$cval['Cm']['page_title'].'</a></li>';
+				             }
                         }
                     
                     $menu_str.='</ul>
