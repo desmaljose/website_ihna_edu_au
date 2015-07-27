@@ -58,7 +58,6 @@
                 
             <div class="footer-strip">
                 <div class="container">
-<<<<<<< HEAD
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="ihm-logo">
@@ -92,14 +91,8 @@
                     </div>
                 </div>
             </div>
-=======
-                <img src="<?php echo WEB_URL; ?>ihna-images/future.png"/>
-                <img src="<?php echo WEB_URL; ?>ihna-images/certified-system.png"/>
-                <a href="http://www.apha.org.au/" target="_blank"><img src="<?php echo WEB_URL; ?>ihna-images/APHA-Logo.png"/></a>
-                </div>
-            </div> 
->>>>>>> origin/master
- 
+
+
             
             <div class="copy">
              	<a href="https://www.facebook.com/myIHNA" target="blank"><img src="ihna-images/facebook.png"/></a>
@@ -108,6 +101,9 @@
                 <a href="<?php echo WEB_URL; ?>rss/feed.xml" target="blank"><img src="ihna-images/rss.png"/></a>
             <p>Legal entity: Health Careers International Pty Ltd  ACN: 106 800 944  ABN 59 106 800 944  RTO ID: 21985 <span title="Commonwealth Register of Institutions and Courses for Overseas Students" style="cursor: pointer;">CRICOS</span> <span title="IHNA is a registered education provider for overseas student studying in Australia." style="cursor: pointer;"> Code: 03386G</span><br>
 © 2015 Institute of Health and Nursing Australia. All Rights Reserved</p>
-            </div>   
+            </div>
+            
+            
+               
             </footer>
             <!-- END FOOTER -->	
