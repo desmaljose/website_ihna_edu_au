@@ -1406,8 +1406,14 @@ new footer style 20-05-2015
 	color:#247CC3;
 }
 .footer-strip{
+<<<<<<< HEAD
 	background:#d7d7d7 url(../ihna-images/sepration.jpg) no-repeat center 0px;
 	padding: 10px 0;
+=======
+	background-color:#d7d7d7;
+	padding: 10px 0;
+	text-align:center;
+>>>>>>> origin/master
 }
 .footer-strip img{
 	margin:0 10px;
@@ -4163,6 +4169,7 @@ option{
 .international-fees td label{
   font-size:14px;
 }
+<<<<<<< HEAD
 .ihm-logo{
 	text-align:center;
 }
@@ -4183,6 +4190,14 @@ option{
 	float:left;
 	margin: 17px 55px 0;
 }
+=======
+
+
+
+
+
+
+>>>>>>> origin/master
 
 
 
@@ -4262,6 +4277,7 @@ option{
 .sub-faq-contant{
 	margin: 15px 0 15px 0px;
 }
+<<<<<<< HEAD
 .technology_partner h4 {
     background:none !important;
     line-height: 20px;
@@ -4271,6 +4287,8 @@ option{
     float: left;
     margin: 17px 17px 10px;
 }
+=======
+>>>>>>> origin/master
 }
 
 @media only screen and (min-width:320px) and (max-width: 480px) {
@@ -4321,6 +4339,7 @@ option{
 .listing-right{
 	padding-top:0px;
 }
+<<<<<<< HEAD
 .technology_partner h4 {
     background:none !important;
     line-height: 20px;
@@ -4333,6 +4352,8 @@ option{
     float: none !important;
     margin: 5px;
 }
+=======
+>>>>>>> origin/master
 
 }
 

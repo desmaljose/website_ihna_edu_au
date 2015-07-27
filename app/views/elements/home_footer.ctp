@@ -58,6 +58,7 @@
                 
             <div class="footer-strip">
                 <div class="container">
+<<<<<<< HEAD
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="ihm-logo">
@@ -91,6 +92,13 @@
                     </div>
                 </div>
             </div>
+=======
+                <img src="<?php echo WEB_URL; ?>ihna-images/future.png"/>
+                <img src="<?php echo WEB_URL; ?>ihna-images/certified-system.png"/>
+                <a href="http://www.apha.org.au/" target="_blank"><img src="<?php echo WEB_URL; ?>ihna-images/APHA-Logo.png"/></a>
+                </div>
+            </div> 
+>>>>>>> origin/master
  
             
             <div class="copy">
