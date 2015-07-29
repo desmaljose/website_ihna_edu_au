@@ -62,7 +62,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="ihm-logo">
                         <a href="https://www.ihm.edu.au/" target="_blank" title="Our Associated Institution"><img src="<?php echo WEB_URL; ?>ihna-images/ihm-logo.png"/></a>
-                        <p>A higher education school/division for Post Graduate Nursing studies<br/> of Health Careers International Pty Ltd. </p>
+                        <p>A higher education school/division for Post Graduate Nursing studies<br/> of the Institute of Health & Nursing Australia (IHNA)</p> 
                         </div>
                     </div>
                 
@@ -77,7 +77,7 @@
                 </div>
             </div> 
             
-            <div class="technology_partner">
+         <?php   /*<div class="technology_partner">
                 <div class="container">
                     <div class="row">
                     <h4 class="col-lg-2 col-md-2 col-sm-12">Our Technology Partners</h4>
@@ -90,7 +90,7 @@
                     <div class="clear"></div>
                     </div>
                 </div>
-            </div>
+            </div> */  ?>
 
 
             
