@@ -13,13 +13,24 @@
                 
             <div class="footer-strip">
                 <div class="container">
-                <img src="<?php echo WEB_URL; ?>ihna-images/future.png"/>
-                <img src="<?php echo WEB_URL; ?>ihna-images/certified-system.png"/>
-                <a href="http://www.apha.org.au/" target="_blank"><img src="<?php echo WEB_URL; ?>ihna-images/APHA-Logo.png"/></a>
-                <a href="https://www.ihm.edu.au/" target="_blank" title="Our Associated Institution"><img src="<?php echo WEB_URL; ?>ihna-images/ihm-logo.png"/></a>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="ihm-logo">
+                        <a href="https://www.ihm.edu.au/" target="_blank" title="Our Associated Institution"><img src="<?php echo WEB_URL; ?>ihna-images/ihm-logo.png"/></a>
+                        <p style="font-size:12px; padding:0; margin:0 !important; line-height:14px;">A higher education school/division for Post Graduate Nursing studies<br/> of the Institute of Health & Nursing Australia (IHNA)</p> 
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="ihm-logo">
+                        <img src="<?php echo WEB_URL; ?>ihna-images/future.png"/>
+                        <img src="<?php echo WEB_URL; ?>ihna-images/certified-system.png"/>
+                        <a href="http://www.apha.org.au/" target="_blank"><img src="<?php echo WEB_URL; ?>ihna-images/APHA-Logo.png"/></a>
+                        </div>
+                    </div>
                 </div>
-            </div> 
-            
+                </div>
+            </div>            
             <div class="copy">
                 <a href="https://www.facebook.com/myIHNA" target="blank"><img src="<?php echo WEB_URL; ?>ihna-images/facebook.png"/></a>
                 <a href="https://twitter.com/myihna" target="blank" ><img src="<?php echo WEB_URL; ?>ihna-images/twitter.png"/></a>
