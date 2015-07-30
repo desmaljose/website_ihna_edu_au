@@ -421,6 +421,10 @@ function sydney_campus()
     $this->layout = "fullwidth_layout";	
 	$this->set('page_title','IHNA Sydney Campus'); 		
 }
+function technology_partners()
+{
+   $this->layout = "header_footer_layout";	
+}
 
 }
 ?>
