@@ -4166,7 +4166,6 @@ option{
 .international-fees td label{
   font-size:14px;
 }
-<<<<<<< HEAD
 .ihm-logo{
 	text-align:center;
 }
@@ -4184,21 +4183,39 @@ option{
 }
 .technology_partner img{
 	float:left;
-	margin: 17px 55px 0;
+	margin: 17px 39px 0;
 }
-=======
-
-
-
-
-
-
->>>>>>> origin/master
-
-
-
-
-
+.tech-learn{
+	display: inline-block;
+    background: url(../ihna-images/arrow-right.png) no-repeat 66px 23px;
+    color: #1E75BE;
+    line-height: 60px;
+    padding: 0 20px 0 0;
+	transition:0.2s;
+	font-size: 15px;
+}
+.tech-learn:hover{
+    background: url(../ihna-images/arrow-right.png) no-repeat 70px 23px;
+    color: #0D628A;
+}
+/*========================
+30-07-2015==============*/
+.teq-partner-box{
+	padding:20px;
+	border:1px solid #DDD;
+	margin: 0 0 20px;
+}
+.partner{
+	float:left;
+	min-height:220px;
+}
+.partner img{
+	float:left;
+	padding:12px;
+	border:1px solid #DDD;
+	margin: 0 20px 0 0;
+	width:161px;
+}
 
 
 
@@ -4273,7 +4290,6 @@ option{
 .sub-faq-contant{
 	margin: 15px 0 15px 0px;
 }
-<<<<<<< HEAD
 .technology_partner h4 {
     background:none !important;
     line-height: 20px;
@@ -4283,8 +4299,9 @@ option{
     float: left;
     margin: 17px 17px 10px;
 }
-=======
->>>>>>> origin/master
+.partner {
+    min-height: inherit;
+}
 }
 
 @media only screen and (min-width:320px) and (max-width: 480px) {
@@ -4335,7 +4352,6 @@ option{
 .listing-right{
 	padding-top:0px;
 }
-<<<<<<< HEAD
 .technology_partner h4 {
     background:none !important;
     line-height: 20px;
@@ -4348,8 +4364,8 @@ option{
     float: none !important;
     margin: 5px;
 }
-=======
->>>>>>> origin/master
-
+.partner {
+    min-height: inherit;
+	margin-bottom:10px;
 }
-
+}

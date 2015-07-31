@@ -3,6 +3,7 @@
             <div class="mclear"></div>
 			<footer class="footer">	
             	<div class="container">
+                <div class="row">
             		<div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="f-one">
                 	<h2>Navigation</h2>
@@ -53,7 +54,8 @@
                     <a href="http://maps.google.com.au/maps?q=Level+7,+33+Argyle+Street,+Parramatta,+NSW+2150&hl=en&ll=-33.815435,151.000321&spn=0.008985,0.021136&sll=-33.815435,151.000321&sspn=0.008985,0.021136&hnear=7%2F33+Argyle+St,+Parramatta+New+South+Wales+2150&t=m&z=16" class="find-map" target="_blank">Find IHNA here</a>
                     </div>
                 	</div>
-                    
+                <div class="clear"></div>
+                </div>    
                 </div>
                 
             <div class="footer-strip">
@@ -77,20 +79,22 @@
                 </div>
             </div> 
             
-         <?php   /*<div class="technology_partner">
+         <div class="technology_partner">
                 <div class="container">
                     <div class="row">
                     <h4 class="col-lg-2 col-md-2 col-sm-12">Our Technology Partners</h4>
                     	<div class="col-lg-10 col-md-10 col-sm-12">
-                        <a href=""><img src="<?php echo WEB_URL; ?>ihna-images/knowledge-hub.png" style="margin-top:8px;" alt="Knowledge Hub"/></a>
-                        <a href=""><img src="<?php echo WEB_URL; ?>ihna-images/amazon.png" alt="Amazon"/></a>
-                         <a href=""><img src="<?php echo WEB_URL; ?>ihna-images/spring-share.png" alt="Spring-share"/></a>
-                          <a href=""><img src="<?php echo WEB_URL; ?>ihna-images/articulate.png" alt="Articulate"/></a>
+                        <a href="http://knowledgehub.com.au/" target="_blank"><img src="<?php echo WEB_URL; ?>ihna-images/knowledge-hub.png" style="margin-top:8px;" alt="Knowledge Hub"/></a>
+                        <a href="<?php echo WEB_URL; ?>pages/technology_partners"><img src="<?php echo WEB_URL; ?>ihna-images/amazon.png" alt="Amazon"/></a>
+                         <a href="<?php echo WEB_URL; ?>pages/technology_partners"><img src="<?php echo WEB_URL; ?>ihna-images/spring-share.png" alt="Spring-share"/></a>
+                          <a href="<?php echo WEB_URL; ?>pages/technology_partners"><img src="<?php echo WEB_URL; ?>ihna-images/articulate.png" alt="Articulate"/></a>
+                        
+                        <a href="<?php echo WEB_URL; ?>pages/technology_partners" class="tech-learn">View More</a>  
                         </div>
                     <div class="clear"></div>
                     </div>
                 </div>
-            </div> */  ?>
+            </div> 
 
 
             
