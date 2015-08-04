@@ -1,6 +1,6 @@
 	<div id="mini-banner">
         <div class="banner-text">
-        <div class="container"><h1>technology partners</h1></div>
+        <div class="container"><h1>our technology partners</h1></div>
         </div>
     </div>
         
