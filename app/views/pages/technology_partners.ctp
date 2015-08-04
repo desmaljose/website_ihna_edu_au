@@ -10,16 +10,23 @@
 <div class="container">
 	
     <div class="teq-partner-box">
+    <p>IHNA carefully selects its Technology Partners for their best-in-class solutions related to the design and delivery of healthcare courses. All of our partners are leaders in 
+    the industry, and our collaborations enable us to meet the growing demands of today’s increasingly complex medical environment. </p>
+    <div class="clear"></div>
+    </div>
+    
+    <div class="teq-partner-box">
     <div class="partner">
     <img src="<?php echo WEB_URL; ?>ihna-images/technology partners/knowledge-hub.png"/>
     </div>
-    <p>The Knowledge Hub Compliance team has extensive experience in the Australian Healthcare and Training Industry. Knowledge Hub is an endeavour that is backed by EduSystems 
-    Australia, a software marketing and development company that meets all your training, customer relationship and communication needs. Having successfully managed their own 
-    RTO compliance processes, they have first-hand knowledge of the processes involved and have designed a set of best practices for Compliance Management. The Knowledge Hub 
-    compliance platform has evolved from their extensive personal experience.<br><br>
-
-    Knowledge Hub provides consulting and end-to-end support in regulatory compliance solutions…and helps you keep one step ahead of what is required of you!</p>        
-    <a href="">Read more</a>
+    <h2>About Knowledge Hub:</h2>
+    <p>Knowledge Hub Compliance is an online platform that can be tailored to suit the compliance needs of organizations, and enables efficient and interactive management of 
+    activities related to laws, regulations, standards and internal policies. Non-conformance with mandatory regulations, whether intentional or not, can prove expensive in many 
+    ways - reason enough to ensure that companies understand these laws and develop the right policies and practices to stay within the legal framework.<br><br> 
+    IHNA has partnered with Knowledge Hub for customized Compliance solutions, through which we have successfully integrated all our policy compliance initiatives into one 
+    framework — streamlining processes and increasing efficiency.
+    </p>        
+    <a href="http://knowledgehub.com.au/" target="_blank">Read more</a>
     <div class="clear"></div>
     </div>
 
@@ -27,14 +34,16 @@
     <div class="partner">
     <img src="<?php echo WEB_URL; ?>ihna-images/technology partners/amazon.png"/>
     </div>
-     
-    <p>The Knowledge Hub Compliance team has extensive experience in the Australian Healthcare and Training Industry. Knowledge Hub is an endeavour that is backed by EduSystems 
-    Australia, a software marketing and development company that meets all your training, customer relationship and communication needs. Having successfully managed their own 
-    RTO compliance processes, they have first-hand knowledge of the processes involved and have designed a set of best practices for Compliance Management. The Knowledge Hub 
-    compliance platform has evolved from their extensive personal experience.<br><br>
+    
+    <h2>About Amazon Web Services:</h2> 
+    <p>Amazon Web Services (AWS) provides trusted, cloud-based solutions to help companies meet their business needs. Deploying business solutions in the AWS Cloud can help to get 
+    applications up and running faster while providing the same level of security that organizations like Pfizer, Intuit, and the US Navy rely on. The AWS Cloud makes a broad set 
+    of services, partners, and support options easily available to help make sure that companies can focus on what will make their solution a success.<br/><br/>
 
-    Knowledge Hub provides consulting and end-to-end support in regulatory compliance solutions…and helps you keep one step ahead of what is required of you!</p>        
-    <a href="">Read more</a>
+    IHNA has partnered with Amazon for cloud services, and through their support we have been able to successfully harness the power of the cloud, both for storage and for virtual 
+    office purposes.
+    </p>        
+    <a href="http://aws.amazon.com/" target="_blank">Read more</a>
     <div class="clear"></div>
     </div>
 
@@ -43,13 +52,14 @@
     <img src="<?php echo WEB_URL; ?>ihna-images/technology partners/spring-share.png"/>
     </div>
      
-    <p>The Knowledge Hub Compliance team has extensive experience in the Australian Healthcare and Training Industry. Knowledge Hub is an endeavour that is backed by EduSystems 
-    Australia, a software marketing and development company that meets all your training, customer relationship and communication needs. Having successfully managed their own 
-    RTO compliance processes, they have first-hand knowledge of the processes involved and have designed a set of best practices for Compliance Management. The Knowledge Hub 
-    compliance platform has evolved from their extensive personal experience.<br><br>
+    <h2>About Springshare:</h2> 
+    <p>Libguides from Springshare is a content management and library knowledge sharing system that is used to share virtual resources, content and knowledge collaboratively 
+    amongst users. The flexible and easy to use interface makes it easy for Librarians to create customised pages specific to the content they wish to display. There is unlimited 
+    potential for the creation of meaningful, attractive and useful content for clients. <br/><br/>
 
-    Knowledge Hub provides consulting and end-to-end support in regulatory compliance solutions…and helps you keep one step ahead of what is required of you!</p>        
-    <a href="">Read more</a>
+    IHNA’s virtual library is managed by Springshare, and helps us enhance the library experience for our students through its value added features and services.
+    </p>        
+    <a href="http://www.springshare.com/" target="_blank">Read more</a>
     <div class="clear"></div>
     </div>
 
@@ -57,23 +67,17 @@
     <div class="partner">
     <img src="<?php echo WEB_URL; ?>ihna-images/technology partners/articulate.png"/>
     </div>
-     
-    <p>The Knowledge Hub Compliance team has extensive experience in the Australian Healthcare and Training Industry. Knowledge Hub is an endeavour that is backed by EduSystems 
-    Australia, a software marketing and development company that meets all your training, customer relationship and communication needs. Having successfully managed their own 
-    RTO compliance processes, they have first-hand knowledge of the processes involved and have designed a set of best practices for Compliance Management. The Knowledge Hub 
-    compliance platform has evolved from their extensive personal experience.<br><br>
-
-    Knowledge Hub provides consulting and end-to-end support in regulatory compliance solutions…and helps you keep one step ahead of what is required of you!</p>        
-    <a href="">Read more</a>
+    <h2>About Articulate:</h2> 
+    <p>Articulate offers powerful and intuitive software like Storyline that creates interactive and rich e-learning courses. Engaging and polished content can be created using 
+    minimal effort, even by users with little experience. Articulate’s tools enable even first time users to become teaching and training pros, and to create, publish and update 
+    comprehensive learning content.<br/><br/>
+    Through Articulate, IHNA’s e-learning courses have well designed content that is beautifully laid out, and allows our students to have greater engagement, comprehension and 
+    retention of the course content.
+    </p>        
+    <a href="https://www.articulate.com/" target="_blank">Read more</a>
     <div class="clear"></div>
     </div>
-
-
-        
-    
-            
 </div>
-
 
 <div class="clear"></div>
 </div>
