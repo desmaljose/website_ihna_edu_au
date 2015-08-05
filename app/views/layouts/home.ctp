@@ -190,7 +190,32 @@
         </div>
 </div>
 
-</div>     
+</div>  
+
+
+<!---------------------------------POPUP advertisement START--------------->
+
+<link rel="stylesheet" href="<?php echo WEB_URL;?>ihna-css/popup.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<script src="<?php echo WEB_URL;?>js/popup.js"></script>
+<div id="boxes">
+  <div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">
+  <a href="#" class="close agree"> <img class="close_popup" src="<?php echo WEB_URL;?>ihna-images/popup_close.png" /></a>
+    <div id="lorem">
+    <img src="<?php echo WEB_URL;?>ihna-images/ihm-popup.png" />
+    
+            <h2><b>Announcing Postgraduate courses from IHM </b><br/> 
+            <small>(IHNA’s higher education division)</small></h2>
+            <ul>
+            <li>Diploma of Nursing</li>
+            <li>Graduate Diploma in Nursing ( Specialisation - Paediatric Nursing )</li>
+            </ul>
+	<a href="https://www.ihm.edu.au/" target="_blank" class="signup-menu">Sign up Now!</a>
+    </div>
+  </div>
+  <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+</div>
+<!---------------------------------POPUP Advertisement END--------------->   
             
         
         <!-- CONTENT WRAPPER

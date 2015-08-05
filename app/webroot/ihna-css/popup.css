@@ -1,0 +1,143 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#FFF;
+  display:none;
+}  
+.close { opacity:1 !important;}
+.close:hover {opacity:1 !important;}
+
+#mask:hover {
+	cursor:pointer;
+}
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:561px !important;
+  height:303px !important;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 10px;
+  border:8px solid rgba(246, 211, 34, 0.84);
+  text-align: center;
+}
+
+.popup_head {
+	font-size:16px; 
+	font-weight:bold;
+	color:#ab640f;
+	text-align:center;
+}
+.popup_head>em {
+	color:#874c07;
+	font-size:18px;
+	font-style:normal !important;
+}
+.popup_subhead {
+	color:#758316;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding:10px;
+  background:url(../ihna-images/popup_bg.png) no-repeat !important;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+  border-radius: 10px;
+  box-shadow:2px 1px 32px 16px rgba(0, 0, 0, 0.37);
+}
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+
+#lorem{
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12pt;
+  text-align: center;
+}
+#lorem img{
+	margin-bottom:12px;
+}
+#lorem h2{
+    color: #c66523;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center !important;
+    padding: 0 0 10px 0;
+    line-height: 24px;
+}
+#lorem h2 small{
+    font-size: 18px !important;
+	color: #c66523;
+	font-weight:600;
+}
+.signup-menu{
+    background: #df4b4b;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+    margin-top: 32px;
+	display:inline-block;
+}
+.signup-menu:hover{
+    background: #DC2A2A;
+}
+#lorem h2 b{
+	font-weight:800;
+}
+#lorem ul{
+    margin:0;
+	padding:0 0 0 48px;
+}
+#lorem ul li{
+	text-align: left !important;
+    line-height: 24px;
+    font-size: 15px;
+    color: #464646;
+    list-style-image: url(../ihna-images/bullet.png);
+	font-family: 'Roboto Condensed',sans-serif !important;	
+}
+
+#lorem em{
+	color:#874c07;
+	font-style:normal;
+	font-weight:bold;
+	font-size:20px;
+}
+.close_popup {
+	float: right;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+/*.agree:hover{
+  background-color: #D1D1D1;
+}*/
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
