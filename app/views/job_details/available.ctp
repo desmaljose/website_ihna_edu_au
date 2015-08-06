@@ -6,7 +6,9 @@
 <div class="job-search-top">
         <div class="row"> 
             
-            <form action="<?php echo WEB_URL;?>jobDetails/available" method="post" enctype="multipart/form-data" name="frmjobsearch" id="frmjobsearch">
+<!--            <form action="<?php echo WEB_URL;?>jobDetails/available" method="post" enctype="multipart/form-data" name="frmjobsearch" id="frmjobsearch">-->
+                
+                <form action="<?php echo WEB_URL;?>careers" method="post" enctype="multipart/form-data" name="frmjobsearch" id="frmjobsearch">
                 
         	<div class="col-lg-4 col-sm-4 col-md-4 search-col">
             <label>Keywords</label>

@@ -24,8 +24,7 @@
                         <input type="text" placeholder="Email" id="contact_email" name="contact_email"> 
                         <input type="text" placeholder="Phone Number" id="contact_phone" name="contact_phone">
                         
-                        <select name="campus" id="campus" style="border-radius: 3px;
-                                outline: none; box-shadow: none; border: 1px solid #B7B7B7; height: 40px; padding: 5px 12px; background: #fff; width: 100%; margin: 7px 0;" placeholder="select your beverage"  >
+<select name="campus" id="campus" placeholder="select your beverage" class="select">
                             <option value="" >Campus</option>
                             <option value="Melbourne">Melbourne</option>
                             <option value="Sydney">Sydney</option>
@@ -81,9 +80,8 @@ function validate(){
                         
                         return submit_flage;
 }
-
-
-
-        
  
-</script>                
+</script> 
+
+
+               

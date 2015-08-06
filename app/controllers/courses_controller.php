@@ -1664,4 +1664,14 @@ function category($id = null){
     
 }
 
+     
+ function fees_and_charges_cricos(){
+    //$this->layout = 'ihnacourses';
+	 $this->layout = 'international_layout_stripped';
+	$this->set('page_title','Fees and Charges'); 
+	$this->set('meta_keywords','IHNA Fees and Charges');
+	$this->set('meta_description','IHNA Fees and Charges');
+	$this->set('meta_title','IHNA Fees and Charges');			
+}
+
 }

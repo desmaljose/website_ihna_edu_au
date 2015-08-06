@@ -1,14 +1,15 @@
 
 <div class="fees-top">
-<h4>campus based fees</h4>
+<h4>Campus wise fees</h4>
 	<div class="row">
-    <div class="col-lg-4 col-sm-4 col-md-4"><a href=""> <span>&nbsp;</span> Melbourne</a></div>
-    <div class="col-lg-4 col-sm-4 col-md-4"><a href=""> <span>&nbsp;</span> Perth </a></div>
-    <div class="col-lg-4 col-sm-4 col-md-4"><a href=""> <span>&nbsp;</span> Sydney</a></div>
+    <div class="col-lg-4 col-sm-4 col-md-4"><a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_vic.pdf"  target="_blank" class="fee-details"> <span>&nbsp;</span> Melbourne (VIC)</a></div>
+    <div class="col-lg-4 col-sm-4 col-md-4"><a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_wa.pdf" class="fee-details" target="_blank" <span>&nbsp;</span> Perth (WA) </a></div>
+    <div class="col-lg-4 col-sm-4 col-md-4"><a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_nsw.pdf" class="fee-details" target="_blank"> <span>&nbsp;</span> Sydney (NSW)</a></div>
     <div class="clear"></div>
     </div>
 </div>
-  
+
+<h4 class="course_h4">Course wise Fees</h4>  
 
 <div class="fees-shell">
 <h2>CHC30212 Certificate III in Aged Care</h2>
@@ -377,6 +378,19 @@
 <a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_vic.pdf"  target="_blank" class="fee-details">VIC fees details</a><a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_wa.pdf" class="fee-details" target="_blank">WA fees details</a>
 <a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_nsw.pdf" class="fee-details" target="_blank">NSW fees details</a>
 </div>
+
+
+<div class="fees-shell">
+<h2>HLT51612 Diploma of Nursing (Enrolled-Division 2 Nursing)</h2>
+<a href="<?php echo WEB_URL; ?>courses/viewdetails/Nursing/Diploma-of-Nursing" class="course-det">View course details</a>
+<div class="clear"></div>
+  	<div class="fees-inner">
+    <a href="<?php echo WEB_URL; ?>don_course_fees"  target="_blank" class="fee-details">Fees Details</a>
+    </div>
+  
+</div>
+
+
 <div class="fees-shell">
 <p style="padding:8px;">Fee options including split payments (direct debits) are available to suit the convenience of students. State and federal government funding is available for eligible candidates. Please contact each campus for details of current fee option and details. Campus based scholarships are also available for a limited number of candidates.</p>
 <p style="padding:8px;">WA Funded Students Concession Fee : Concession eligible students are holders of either a health care or pensioner concession card, recipients of AUSTUDY, ABSTUDY, or Youth Allowance</p>

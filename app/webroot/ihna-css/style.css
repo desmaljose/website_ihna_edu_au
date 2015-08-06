@@ -1406,6 +1406,8 @@ new footer style 20-05-2015
 	color:#247CC3;
 }
 .footer-strip{
+	background:#d7d7d7 url(../ihna-images/sepration.jpg) no-repeat center 0px;
+	padding: 10px 0;
 	background-color:#d7d7d7;
 	padding: 10px 0;
 	text-align:center;
@@ -3537,21 +3539,21 @@ Gallery page style===============*/
 .fees-table{
 	width:100%;
 	margin: 0;
-	border: 1px solid #DDD;
+	border-top: 1px solid #dddddd;
 }
 .fees-table td{
 	padding:10px;
 }
 .fees-table th{
 	padding:10px;
-	border-bottom: 1px solid #C3C3C3;
+	border-bottom: 1px solid #DDD;
 }
 .fees-table th h4{
 	color:#444;
 	font-size:18px;
 }
 .fees-table td label{
-	color:#3f494f;
+	color:#777;
 }
 .sub-fee{
 	padding: 0 0 0 15px;
@@ -4046,7 +4048,7 @@ img { border: 0; max-width: 100%; }
   box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
 }
 .fees-top{
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .fees-top h4{
   font-size: 20px;
@@ -4108,6 +4110,129 @@ img { border: 0; max-width: 100%; }
 .glyphicon {
   top: 3px;
 }
+.select{
+	border-radius: 3px;
+	outline: none; 
+	box-shadow: none; 
+	border: 1px solid #B7B7B7; 
+	height: 40px; 
+	padding: 5px 6px; 
+	background: #fff; 
+	width: 100%; 
+	margin: 7px 0;" 
+}
+select{
+    color:#adadad !important;
+}
+option{
+    color:#666 !important;
+}
+.course_h4 {
+  font-size: 20px;
+  line-height: 26px;
+  border-bottom: 1px solid #C9DAE7;
+  text-transform: capitalize;
+  color: #277DD2;
+  padding: 0 0 7px 0;
+  margin-bottom: 15px;
+}
+.fees-inner{
+	background:#EEE;
+	border-top:1px solid #CCC;
+	padding:15px;
+}
+.fees-inner a{
+	margin:0px !important;
+}
+.fee-icon {
+  background: url(../ihna-images/fees-icon.png) no-repeat left center;
+}
+.international-fees{
+  border: 1px solid #D1D3D7;
+  vertical-align:top !important;
+}
+.international-fees h5{
+  color:#555;
+  text-align:center;
+}
+.international-fees th {
+  padding: 10px 0px 10px 10px;
+  border-bottom: 1px solid #DDD;
+  background-color:#E7EBF0;
+}
+.international-fees td {
+  padding: 10px 0 10px 10px;
+}
+.international-fees td label{
+  font-size:14px;
+}
+.ihm-logo{
+	text-align:center;
+}
+.ihm-logo p{
+	font-size:14px;
+	line-height:18px;
+}
+.technology_partner{
+	background-color:#CDCDCD;
+}
+.technology_partner h4{
+	background:url(../ihna-images/arrow-right.png) no-repeat right 23px;
+	line-height:60px;
+	color: #1E75BE;
+}
+.technology_partner img{
+	float:left;
+	margin: 17px 39px 0;
+}
+.tech-learn{
+	display: inline-block;
+    background: url(../ihna-images/arrow-right.png) no-repeat 66px 23px;
+    color: #1E75BE;
+    line-height: 60px;
+    padding: 0 20px 0 0;
+	transition:0.2s;
+	font-size: 15px;
+}
+.tech-learn:hover{
+    background: url(../ihna-images/arrow-right.png) no-repeat 70px 23px;
+    color: #0D628A;
+}
+/*========================
+30-07-2015==============*/
+.teq-partner-box{
+	padding:20px;
+	border:1px solid #DDD;
+	margin: 0 0 20px;
+}
+.partner{
+	float:left;
+	min-height:220px;
+}
+.partner img{
+	float:left;
+	padding:12px;
+	border:1px solid #DDD;
+	margin: 0 20px 0 0;
+	width:161px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4165,6 +4290,18 @@ img { border: 0; max-width: 100%; }
 .sub-faq-contant{
 	margin: 15px 0 15px 0px;
 }
+.technology_partner h4 {
+    background:none !important;
+    line-height: 20px;
+	padding-top:10px;
+}
+.technology_partner img {
+    float: left;
+    margin: 17px 17px 10px;
+}
+.partner {
+    min-height: inherit;
+}
 }
 
 @media only screen and (min-width:320px) and (max-width: 480px) {
@@ -4215,6 +4352,20 @@ img { border: 0; max-width: 100%; }
 .listing-right{
 	padding-top:0px;
 }
-
+.technology_partner h4 {
+    background:none !important;
+    line-height: 20px;
+	padding-top:10px;
 }
-
+.technology_partner {
+    text-align: center;
+}
+.technology_partner img {
+    float: none !important;
+    margin: 5px;
+}
+.partner {
+    min-height: inherit;
+	margin-bottom:10px;
+}
+}

@@ -58,7 +58,7 @@
             <li>Read the VET FEE-HELP information booklet (the booklet) before you complete and submit the Request for VET FEE-HELP assistance form (the form) by the census date.</li>
             </ul>
             <h3>More information</h3>
-            <p>For more information, including how to apply:</p>
+            <p>For more information and the financial advice prior to applying for a VET HEE-HELP loan and how to apply:</p>
             <ul class="vet-listing">
             <li>Read the VET FEE-HELP information booklet</li>
             <li>Visit <a href="http://studyassist.gov.au/sites/StudyAssist/" target="_blank">www.studyassist.gov.au</a></li>
@@ -66,14 +66,13 @@
             <li>Call the student hotline on 13 38 73.</li>
             </ul>
             </div>
-    	</div>
-        
-    	<div class="col-lg-6 col-sm-6 wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
+    	
             
     		<div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
             <h2>How do I apply?</h2>
             <p>To apply for VET FEE-HELP you need to submit a request for VET FEE-HELP assistance form by the census date indicated by your approved provider on their website. 
-            The form is only available from approved providers and you must submit the form to them. You will need to provide your tax file number to complete the form.</p>
+            The form is only available from approved providers and you must submit the form to them. You will need to provide your tax file number to complete the form. 
+            The signed Request for Commonwealth Assistance form applies to a loan for the entire VET course of study, charged on a unit by unit basis, unless the student pays some of the tuition fees. </p>
             </div>
             
     		<div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
@@ -81,16 +80,39 @@
             <p>There is a set maximum amount you can borrow through VET FEE-HELP over your lifetime.</p>
             </div>
             
-    		<div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
+            </div>
+        
+    	<div class="col-lg-6 col-sm-6 wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
+
+        <div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
             <h2>Is there a loan fee ?</h2>
             <p>Depending on where you are studying, you may attract a loan fee of up to 20 percent for your VET FEE-HELP loan. This is included in your VET FEE-HELP debt. 
             There is no interest on VET FEE-HELP loans but your debt total is adjusted (indexed) each are to keep its real value.</p>
             </div>
-            
-    		<div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
+                   
+    	
+            <div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
             <h2>How do I repay the loan?</h2>
-            <p>You will repay your VET FEE-HELP loan gradually through the tax system once your income is above the minimum repayment threshold set by the Australian 
-            Taxation Office.</p>
+            <p>You will repay your VET FEE-HELP loan gradually through the tax system once your income is above the minimum repayment threshold set by the Australian Taxation Office. The loan  will remain as a personal dept. obligation until it is repaid to the commonwealth.  The loan may affect (by reducing) the person’s take-home (after-tax) wage or salary until the debt is repaid, and may affect the borrowing capacity of the person until the debt is repaid to the Commonwealth.</p>
+            </div>
+            
+             <div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
+            <h2>What is a census date?</h2>
+            <p>The date after which a student incurs a debt for the unit of study in which they are enrolled. Students must make their up front payments and submit their request/s for Commonwealth assistance by the census date. Census date(s) will apply to each of the VET units of study in which the person enrols, with the student taking out a loan for any tuition fees that remain unpaid at the end of each census date</p>
+            </div>
+
+            <div class="vet-contant wow triggerAnimation animated fadeInDown animated" data-animate="fadeInDown" data-wow-delay=".1s">
+            <h2>How do I cancel the enrolment?</h2>
+            <p>A student may cancel their enrolment by withdrawing from each VET unit of study on or before the census date in accordance with the provider’s withdrawal policy. </p>
+            <p>Withdrawal will result in the student:</p>
+            <ul class="vet-listing" style="min-height : 0 !important">
+            <li>Not incurring a VET FEE HELP dept. and/or</li>
+            <li>Receiving a refund for any up-front tuition fee payment made on or before the census date</li>            
+            </ul>         
+
+            </div>  
+
+            <div>
             <h3>Useful Resources:</h3>
             <ul class="li-listing">
             <li><a href="http://studyassist.gov.au/sites/StudyAssist/HelpfulResources/Documents/2014%20VET%20FEE-HELP%20booklet.pdf" target="_blank" title="Click here to view the document">VET FEE-HELP information booklet</a></li>
@@ -107,8 +129,10 @@
             <li class="polices-listing-sub"><a href="https://academic.ihna.edu.au/webdata/documents/student_review_procedures_for_re_crediting_a_fee_help_balance.pdf" target="_blank" title="Click here to view the document">Student Review Procedures for Re-crediting a FEE-HELP balance</a></li>
             <li>Personal information procedures:</li>
             <li class="polices-listing-sub"><a href="<?php echo WEB_URL; ?>policydocuments/policy/103" target="_blank" title="Click here to view the document">IHNA Privacy Policy</a></li>
+            <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/54" target="_blank">Deferral, Leave of Absence, Withdrawal and Suspension Policy and Procedure</a></li>
             </ul>
-            </div>
+
+            </div>                      
             
     	</div>
            

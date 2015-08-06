@@ -249,6 +249,8 @@ src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
             
             	<a href="<?php echo WEB_URL; ?>courses/calendar">
                 <div class="side-links col-xs-12 col-sm-12 col-md-12 col-lg-12 cal">Course Calendar</div></a>
+            	<a href="<?php echo WEB_URL; ?>courses/fees_and_charges">
+                <div class="side-links col-xs-12 col-sm-12 col-md-12 col-lg-12 fee-icon">Fees and Charges</div></a>                
                 <!--<a href="<?php //echo WEB_URL; ?>lln_test">-->
                 <a href="http://old.ihna.edu.au/courses/lln_test_details" target="_blank">
                 <div class="side-links col-xs-12 col-sm-12 col-md-12 col-lg-12 test">IHNA LLN Test</div></a>
@@ -256,19 +258,7 @@ src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
                 <div class="side-links col-xs-12 col-sm-12 col-md-12 col-lg-12 inter" title="Courses for International Students">International Students</div></a>
 
                 <a href="<?php echo WEB_URL; ?>enquiries"><div class="side-links col-xs-12 col-sm-12 col-md-12 col-lg-12 enq">Student Enquiry</div></a>
-<!--                <div class="clear"></div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cover-1 ">   
-                        <ul class="sidelist">	
-                   		<li class="no-bg wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">IHNA Fees Schedule
-                   			<ul>                  
-                            <a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_vic.pdf"  target="_blank" title="Fees and Charges - Melbourne Campus"><li class="sub_list wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">Melbourne</li></a>
-                            <a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_wa.pdf"  target="_blank" title="Fees and Charges - Perth Campus"><li  class="sub_list wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">Perth</li></a>
-                            <a href="https://academic.ihna.edu.au/webdata/fees/ihna_fees_and_charges_for_2015_nsw.pdf"  target="_blank" title="Fees and Charges - Sydney campus"><li  class="sub_list wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">Sydney</li></a>               
-                        	</ul>                    
-                    	</li>
-                        </ul>                
-               </div>-->
-                
+               
                 
             </div>
                     
