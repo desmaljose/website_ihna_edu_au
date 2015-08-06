@@ -200,7 +200,7 @@ if($popper == 0){
 <!---------------------------------POPUP advertisement START--------------->
 
 <link rel="stylesheet" href="<?php echo WEB_URL;?>ihna-css/popup.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 <script src="<?php echo WEB_URL;?>js/popup.js"></script>
 <div id="boxes">
   <div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">
