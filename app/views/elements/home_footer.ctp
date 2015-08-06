@@ -11,7 +11,9 @@
                     <a href="<?php echo WEB_URL; ?>about_ihna">- About Us</a>
                     <a href="<?php echo WEB_URL; ?>courses">- Courses</a>
                     <a href="<?php echo WEB_URL; ?>students">- Students </a>
+                    <a href="https://knowledge.ihna.edu.au/login">- Staff </a>
                     <a href="<?php echo WEB_URL; ?>international">- IHNA International</a>
+                    
                     <a href="<?php echo WEB_URL; ?>contact">- Contact Us</a>
                     </div>
                 	</div>

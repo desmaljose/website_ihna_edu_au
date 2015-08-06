@@ -20,10 +20,10 @@
     						<a href="https://student.ihna.edu.au/" class="thumbnail" target="_blank">  <img src="<?php echo WEB_URL; ?>ihna-images/student-hub-login.png" alt="...">
                             <p>Student Hub Login</p></a>
   						</div>
-  						<div class="col-lg-3 col-sm-6 col-md-4 wow triggerAnimation animated" data-animate="fadeInRight"  data-wow-delay=".1s">
+  					<?php /*	<div class="col-lg-3 col-sm-6 col-md-4 wow triggerAnimation animated" data-animate="fadeInRight"  data-wow-delay=".1s">
     						<a href="https://knowledge.ihna.edu.au/login" class="thumbnail" target="_blank">  <img src="<?php echo WEB_URL; ?>ihna-images/student-login.png" alt="Student Login">
                             <p>Staff Login</p></a>
-  						</div>                        
+  						</div> */  ?>                     
                         <div class="col-lg-3 col-sm-6 col-md-4 wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">
     						<a href="http://onlinelibrary.myihm.com.au/content.php?pid=329639" class="thumbnail" target="_blank">  <img src="<?php echo WEB_URL; ?>ihna-images/library.png"  alt="Online Library">
                             <p>Online Library   </p></a>

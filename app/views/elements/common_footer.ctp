@@ -5,6 +5,7 @@
                     <a href="<?php echo WEB_URL; ?>about_ihna">About Us</a><a>|</a> 
                     <a href="<?php echo WEB_URL; ?>courses">Courses</a><a>|</a> 
                     <a href="<?php echo WEB_URL; ?>students">Students </a><a>|</a> 
+                    <a href="https://knowledge.ihna.edu.au/login">Staff </a><a>|</a> 
                     <a href="<?php echo WEB_URL; ?>international">International</a><a>|</a> 
                     <a href="<?php echo WEB_URL; ?>contact">Contact Us</a>
                 	</div>
