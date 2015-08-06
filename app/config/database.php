@@ -77,7 +77,7 @@ class DATABASE_CONFIG {
         var $default = array(
 		'driver' => 'mysql',
 		'persistent' => false,
-		'host' => '10.10.30.60',
+		'host' => '10.10.50.202',
 		'login' => 'myuser',
 		'password' => 'mypass',
 		'database' => 'ihna_newdb',
@@ -99,7 +99,7 @@ class DATABASE_CONFIG {
         var $smsihna = array(
 		'driver' => 'mysqli',
 		'persistent' => false,
-		'host' => '10.10.30.60',
+		'host' => '10.10.50.202',
 		'login' => 'myuser',
 		'password' => 'mypass',
 		'database' => 'sms_ihnadb',

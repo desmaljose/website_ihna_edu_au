@@ -309,8 +309,8 @@ Configure::write('Session.save', 'php');
  */
 	Cache::config('default', array('engine' => 'File'));
 	// LOCAL
-        @define('WEB_URL',FULL_BASE_URL.'/ihna_website/');
-	@define('BASE_URL',FULL_BASE_URL.'/ihna_website/');
+        @define('WEB_URL',FULL_BASE_URL.'/website_ihna_edu_au/');
+	@define('BASE_URL',FULL_BASE_URL.'/website_ihna_edu_au/');
 
 	@define('SH_URL',FULL_BASE_URL.'/studentportal/');
         

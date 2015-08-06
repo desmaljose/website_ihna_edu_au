@@ -1,5 +1,6 @@
 <?php
 class Payment extends AppModel {
+    
 	var $name = 'Payment';
 	var $useDbConfig = 'smsihna';
 	var $validate = array(

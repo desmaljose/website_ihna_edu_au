@@ -641,3 +641,36 @@ Array
 )
 
 =========================
+Array
+(
+    	[url] => payments/success/14
+    
+		[Title] => PHP VPC 3-Party
+    
+		[vpc_Amount] => 200
+    
+		[vpc_BatchNo] => 0
+    
+		[vpc_Command] => pay
+    
+		[vpc_Locale] => en
+    
+		[vpc_MerchTxnRef] => 4309929
+    
+		[vpc_Merchant] => ANZIHNA
+    
+		[vpc_Message] => Cancelled
+    
+		[vpc_OrderInfo] => 14
+    
+		[vpc_SecureHash] => F12FF317694414B6D78EC1C184BCC317
+    
+		[vpc_TransactionNo] => 0
+    
+		[vpc_TxnResponseCode] => C
+    
+		[vpc_Version] => 1
+
+)
+
+=========================

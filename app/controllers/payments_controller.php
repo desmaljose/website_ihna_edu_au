@@ -4,7 +4,7 @@ class PaymentsController extends AppController {
 	var $name = 'Payments';
         var $helpers    = array('Security');
         var $components  = array('Snoopy','RequestHandler');
-        var $uses = array('LocalPayment');
+        //var $uses = array('LocalPayment');
 
 	function _index() {
 		$this->Payment->recursive = 0;
@@ -68,6 +68,8 @@ function invoice_payment() {
 }
 
 function confirm() {
+    
+
     //$this->autoRender = false;
     
     $this->layout = 'about_layout';
@@ -76,6 +78,8 @@ function confirm() {
      {	
              $this->redirect(array('controller'=>'payments','action'=>'error'));
      }
+     
+
     
     $payonline_data = array();
     $payonline_data['student_name'] = $this->params['form']['cname'];
@@ -100,13 +104,16 @@ function confirm() {
              $payonline_data['surcharge']= 0;
     }
 
-    
+
     // INSERT QUERY GOES HERE
     $this->Payment->create();
     $this->Payment->save( $payonline_data );
     $pay_id = $this->Payment->id;
 
     //debug($this->Payment->validationErrors);
+        
+    
+
 
     if(($pay_id == '0')||($pay_id == ''))
     {
@@ -115,6 +122,7 @@ function confirm() {
 
     $this->set('userinfo', $pay_id);
     $this->set('payamount', $this->params['form']['vpc_Amount']);
+
 
 }
 
@@ -664,7 +672,8 @@ fclose($fp);
         
         // users TABLE starts here        
         // test entry, just delet this line after testing
-        $emailid = 'ajith@pavanathara.com';      
+        $emailid = 'ajith@pavanathara.com';  
+        
         $submit_vars["username"] = $emailid;
         $submit_vars["moodle_userid"] = 0;
         $submit_vars["ip_address"] = $this->RequestHandler->getClientIp();
@@ -682,7 +691,28 @@ fclose($fp);
         $submit_vars["phone1"] = $phonenumber;
         
         // user_details TABLE ends here
+        
+        
+        
+        // enrolment_details TABLE starts here
+        //
+        //  Test entries goes here
+        $course_id = '11';
+        $course_batch_id = '11';
+        $user_id = '232';
+        $enrol_status = '1';
+        $created = date('Y-m-d H:i:s');
+        
+        $submit_vars["course_id"] = $course_id;
+        $submit_vars["course_batch_id"] = $course_batch_id;
+        $submit_vars["user_id"] = $user_id;
+        $submit_vars["enrol_status"] = $enrol_status;
+        $submit_vars["created"] = $created;
+        
 
+
+        
+        
         $this->Snoopy->submit($submit_url,$submit_vars);
         
   
