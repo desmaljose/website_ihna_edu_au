@@ -3976,3 +3976,8 @@
 2015-07-24 04:22:59 Debug: Notice (8): Undefined index: meta_keywords in [D:\wamp\www\website_ihna_edu_au\app\app_controller.php, line 29]
 2015-07-24 04:22:59 Debug: Notice (8): Undefined index: google_analytics in [D:\wamp\www\website_ihna_edu_au\app\app_controller.php, line 30]
 >>>>>>> 84dd748897b6e911e0db8b648229df212aa47924
+2015-08-06 06:08:11 Debug: Notice (8): Undefined index: meta_title in [D:\wamp\www\website_ihna_edu_au\app\app_controller.php, line 26]
+2015-08-06 06:08:11 Debug: Notice (8): Undefined index: meta_title in [D:\wamp\www\website_ihna_edu_au\app\app_controller.php, line 27]
+2015-08-06 06:08:11 Debug: Notice (8): Undefined index: meta_description in [D:\wamp\www\website_ihna_edu_au\app\app_controller.php, line 28]
+2015-08-06 06:08:11 Debug: Notice (8): Undefined index: meta_keywords in [D:\wamp\www\website_ihna_edu_au\app\app_controller.php, line 29]
+2015-08-06 06:08:11 Debug: Notice (8): Undefined index: google_analytics in [D:\wamp\www\website_ihna_edu_au\app\app_controller.php, line 30]
