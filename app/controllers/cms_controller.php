@@ -62,6 +62,15 @@ function home()
         }
 
  	$this->set('page_content',$cms['Cm']['page_content']);
+        
+        // FOR POP UP
+        if($this->Session->read('popper')!=''){
+            $this->set('popper',1);
+        }else{
+            $this->set('popper',0);
+        }
+        $this->Session->write('popper', '1');
+        
 }
 
 function pages($id) 

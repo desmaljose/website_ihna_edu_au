@@ -192,7 +192,11 @@
 
 </div>  
 
+<?php
 
+if($popper == 0){
+
+?>
 <!---------------------------------POPUP advertisement START--------------->
 
 <link rel="stylesheet" href="<?php echo WEB_URL;?>ihna-css/popup.css">
@@ -216,7 +220,11 @@
   <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
 </div>
 <!---------------------------------POPUP Advertisement END--------------->   
-            
+<?php
+
+}
+
+?>
         
         <!-- CONTENT WRAPPER
         ============================================= -->
