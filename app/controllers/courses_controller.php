@@ -1001,7 +1001,8 @@ function fullcalendar($student_type_id=0, $year=0, $month=0, $day=0) {
 																$details['course_name']     = $CourseStudentTypeMods['CourseStudentType']['Course']['course_name'];
 																$details['normal_hours']    = $CourseStudentTypeMods['CourseStudentType']['Course']['normal_hours'];
 																$details['campus_name']     = $CourseStudentTypeMods['CourseStudentType']['Campus']['campus_name'];
-																$details['calendar_color']  = ($date['CourseStartDate']['color']!='' ? '#'.$date['CourseStartDate']['color'] : '#C28FF2');
+																$details['calendar_color']  = ($date['CourseStartDate']['color']!='' ? '#'.$date['CourseStartDate']['color'] : '#9C3CF7'); //#C28FF2 
+																
 																
 																$courses[$details['course_id'].'_'.$details['campus_id']] = $details;
 												}
