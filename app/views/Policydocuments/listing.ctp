@@ -18,7 +18,7 @@
         <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/49" target="_blank">Plagiarism and Cheating Policy</a></li>
         <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/103" target="_blank">Privacy Policy</a></li>
         <li><a href="https://academic.ihna.edu.au/webdata/policies/procedure_to_borrow_or_renew_books.pdf" target="_blank">Procedure to Borrow or Renew Books</a></li>
-        <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/51">Recognition of Prior Learning Procedure</a></li>
+        <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/51" target="_blank">Recognition of Prior Learning Procedure</a></li>
         <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/79" target="_blank">Refund Policy</a></li>
         <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/57" target="_blank">Student Code of Behaviour</a></li>
         <li><a href="<?php echo WEB_URL; ?>policydocuments/policy/58" target="_blank">Students Complaints and Appeals Policy</a></li>
