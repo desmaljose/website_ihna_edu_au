@@ -16,8 +16,9 @@ function content()
 		$this->layout = "about_layout";
 	else if($cms['Cm']['parent_id']==5)
 		$this->layout = "international_sub_layout";
-	else if($cms['Cm']['parent_id']==4)
-		$this->layout = "students_sub";		
+	else if($cms['Cm']['parent_id']==4){
+		$this->layout = "students_sub";	
+    }	
 	//echo $layout;
         
         
