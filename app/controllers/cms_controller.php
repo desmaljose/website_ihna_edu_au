@@ -1023,5 +1023,58 @@ $headers = "From: no-reply@ihna.edu.au\r\n";
             
         }
 
+
+    function contact_ceo(){
+
+        $this->layout = 'about_layout';
+        //print_r($this->params); print_r($this->data);exit();
+        if($this->data['contact_ceo']!=''){
+            
+            $msg = '<html>
+                        <head>
+                          <title>Quick Enquiry</title>
+                          <style type="text/css">
+                        table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.hidden,[hidden]{display:none!important}.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #cbcbcb}.pure-table caption{color:#000;font:italic 85%/1 arial,sans-serif;padding:1em 0;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #cbcbcb;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.5em 1em}.pure-table td:first-child,.pure-table th:first-child{border-left-width:0}.pure-table thead{background-color:#e0e0e0;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td{background-color:#f2f2f2}.pure-table-striped tr:nth-child(2n-1) td{background-color:#f2f2f2}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px;border-bottom:1px solid #cbcbcb}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}  
+                        </style>
+                        </head>
+                        <body>';
+              
+            $msg .= "<h3>Contact CEO</h3>";
+            $msg .= "<table class='pure-table'>";
+            $msg .= "<tr class='pure-table-odd'><td><b>Name </b></td><td>".$this->data['contact_ceo']['name']."</td></tr>";
+            $msg .= "<tr><td><b>Email </b></td><td>".$this->data['contact_ceo']['email']."</td></tr>";
+            $msg .= "<tr class='pure-table-odd'><td><b>Phone </b></td><td>".$this->data['contact_ceo']['phone']."</td></tr>";
+            $msg .= "<tr class='pure-table-odd'><td><b>Enquiry </b></td><td>".$this->data['contact_ceo']['comments']."</td></tr>";      
+            
+            $msg .= '</table>';
+            $msg .= '</body>
+                    </html>';
+
+            $to = 'enquiry@ihna.edu.au';
+            //$to = 'desmal@mwtedu.com';
+
+            $subject = 'IHNA : Quick Enquiry';
+
+            $headers = "From: no-reply@ihna.edu.au\r\n";
+            //$headers = "From: desmal@mwtedu.com\r\n";
+            //$headers = "From: ".$this->data['contact_ceo']['email']."\r\n";
+            $headers  .= 'MIME-Version: 1.0' . "\r\n";
+            $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+            
+            //$headers .= 'From: '.$this->data['contact_ceo']['email']. "\r\n";        
+            
+
+            mail($to,$subject,$msg,$headers);
+            mail('subin.kurian@ihna.edu.au,desmal@mwtedu.com',$subject,$msg,$headers);
+
+            $this->redirect(array('action'=>'contact_ceo_thanks'));
+        }
+    }
+
+    function contact_ceo_thanks(){
+        
+        $this->layout = 'about_layout';
+    }
+
 }
 ?>

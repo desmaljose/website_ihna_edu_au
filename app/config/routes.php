@@ -34,7 +34,9 @@
 	
     Router::connect('/international', array('controller' => 'courses', 'action' => 'international'));
 
-	
+    Router::connect('/contact_ceo', array('controller' => 'cms', 'action' => 'contact_ceo'));
+    Router::connect('/contact_ceo_thanks', array('controller' => 'cms', 'action' => 'contact_ceo_thanks'));
+
     Router::connect('/students', array('controller' => 'cms', 'action' => 'students'));    
     Router::connect('/contact', array('controller' => 'cms', 'action' => 'contact'));
 	Router::connect('/contacts', array('controller' => 'cms', 'action' => 'contact'));
@@ -186,4 +188,6 @@ $rows = $Post->find('all',array('conditions'=>array('Cm.enable'=>1, 'Cm.seo_url 
 foreach($rows as $row)
         {   
     Router::connect('/'.$row['Cm']['seo_url'], array('controller' => 'cms', 'action' => 'content', $row['Cm']['id'] ));
-}        
+}
+
+//contact_ceo_form
