@@ -212,7 +212,7 @@ if($popper == 0){
             <small>(IHNA’s higher education division)</small></h2>
             <ul>
             <li>Graduate Diploma in Nursing</li>
-            <li>Graduate Diploma in Nursing ( Specialisation - Paediatric Nursing )</li>
+            <li>Graduate Diploma of Nursing ( Specialisation - Paediatric Nursing )</li>
             </ul>
 	<a href="https://www.ihm.edu.au/" target="_blank" class="signup-menu">Sign up Now!</a>
     </div>
