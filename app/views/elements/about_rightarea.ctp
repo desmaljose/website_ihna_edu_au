@@ -1,6 +1,6 @@
 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
 
-                  <!----------------------------language bar--------------------->   
+                  <!----------------------------language bar------------------- -->   
                   
 	<div class="language_bar">
             <div class="website_view">View website in<div id="google_translate_element" style="float: right;"></div> </div>
@@ -17,7 +17,7 @@ src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
 
     </div> 
     
-   <!----------------------------language bar---------------------> 
+   <!----------------------------language bar------------------- --> 
 
                 <ul class="sidelist">
                     <?php foreach($submenus as $skey=>$sval){?>
@@ -43,5 +43,11 @@ src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
                 <div class="toll-free col-xs-12 col-sm-12 col-md-12 col-lg-12 wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">
                     <img class="img-responsive mar-auto" src="<?php echo WEB_URL; ?>ihna-images/tollfree.png">
                 </div>
-                
+                <div class="toll-free col-xs-12 col-sm-12 col-md-12 col-lg-12 wow triggerAnimation animated" data-animate="fadeInUp"  data-wow-delay=".1s">
+                <?php   /*echo $this->here;
+                        if($this->here=='test'){*/
+                            echo $this->Html->link($this->Html->image("contactCEO.png",array('class'=>'img-responsive mar-auto')),array('controller'=>'cms','action'=>'contact_ceo'),array('escape'=>false));
+                        //} ?>                    
+                </div>
+
             </div>
